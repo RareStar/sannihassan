@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: darkcyan;
+    margin: 0em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.word{
+    color: black;
+    vertical-align: middle;
+    font-size: large;
+    font-weight: bold;
+    line-height: normal;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    border: 1px solid black;
+    margin: 1px;
+    width: 500px;
+    padding: 1px;
+}
+.box-1{
+    background-color: dimgrey;
+    
+}
+.yes1{
+    background-color: rgb(95, 112, 160);
+    border: 1px solid black; 
+    text-align: right;
+    float: right;
+}
+.yes2{
+    background-color: rgb(134, 95, 160);
+    border: 1px solid black;
+    text-align: left;
+    float: right;
+}
+.yes3{
+    background-color: rgb(172, 30, 117);
+    border: 1px solid black; 
+    text-align: left;
+    float: right;
+}
+.go{
+    clear: both;
+}
+@media (min-width: 992px){
+    .container{
+        padding-left: 1px;
+        float: left;
+        width: 33%
+    }
+}
+@media (min-width: 768px) and (max-width:991px) {
+    .range{
+        float: none;
+        width: 40%;
+    }
+    .aqua{
+      padding: 1em;
+        width: 35%;
+        position: absolute;
+    top: 49px;
+    left: 62%
+    }
+    .marine{
+        padding: 1px;
+        width: 
+    position: relative;
+    
+    }
+    }
+@media (max-width: 767px){
+    .aqua{
+        position: relative;
+        left: 1px;
+    }
+}
